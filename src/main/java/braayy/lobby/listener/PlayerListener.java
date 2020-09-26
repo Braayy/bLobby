@@ -88,7 +88,7 @@ public class PlayerListener implements Listener {
 
     @EventHandler
     public void onInventoryClick(InventoryClickEvent event) {
-        if (event.getClickedInventory() == event.getWhoClicked().getInventory()) {
+        if (event.getClickedInventory() == event.getWhoClicked().getInventory() && !event.getWhoClicked().hasPermission("blobby.block")) {
             event.setCancelled(true);
         }
     }
