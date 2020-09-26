@@ -4,7 +4,7 @@ A lobby plugin
 
 # Permissions
 
--` blobby.block` - Lets you break blocks
+- `blobby.block` - Lets you break blocks
 
 # Support
 
