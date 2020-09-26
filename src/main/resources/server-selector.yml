@@ -1,0 +1,12 @@
+# Time in seconds
+refresh-rate: 10
+
+servers:
+  - 'SkyWars01'
+
+item:
+  'SkyWars01':
+    type: GRASS
+    name: '&aSkywars'
+    lore:
+      - '&7Play together with {players} other players!'

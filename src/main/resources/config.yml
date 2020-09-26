@@ -1,0 +1,26 @@
+item:
+  server-selector:
+    type: COMPASS
+    name: '&bServer Selector &7(Right Click)'
+
+  armor:
+    type: DIAMOND_CHESTPLATE
+    name: '&aArmor &7(Right Click)'
+
+    clear:
+      type: BARRIER
+      name: '&3Clear Armor'
+
+  pets:
+    type: LEASH
+    name: '&ePets &7(Right Click)'
+
+title:
+  server-selector: '&aServer Selector'
+  armor: '&7Armor'
+
+support:
+  bPets: true
+
+feature:
+  double-jump: true

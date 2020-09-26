@@ -1,0 +1,6 @@
+name: '${project.artifactId}'
+main: '${project.groupId}.Lobby'
+version: '${project.version}'
+author: 'Braayy'
+
+softdepend: [ 'bPets' ]
